@@ -1,0 +1,84 @@
+---
+import Section from "@/components/Section.astro";
+
+import { education } from "@cv"
+
+---
+
+<Section title="Education">
+
+    <ul>
+        {
+            education.map(({ institution, url, area, studyType, startDate, endDate, score, courses }) => {
+                
+                const dates = startDate && endDate ? `${startDate} - ${endDate}` : null
+
+                return (
+                    <li>
+                        <article>
+                            <header>
+                                <div>
+                                    <h3>
+                                        <a href={url} target="_blank" title={`Go to ${institution}`}>
+                                            {institution}
+                                        </a>
+                                    </h3>
+                                </div>
+                                <time>{dates}</time>
+                            </header>
+                            <footer>
+                                <h4>{area}</h4>
+                                <span>{studyType}</span>
+                            </footer>
+                        </article>
+                    </li>
+                )
+
+            })
+        }
+    </ul>
+
+</Section>
+
+<style>
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    article h3 a {
+        font-weight: 500;
+        color: #111;
+        text-decoration: none;
+    }
+
+    article h3 a:hover {
+        text-decoration: underline;
+    }
+
+    article h4 {
+        font-weight: 420;
+        color: #222;
+    }
+
+    article span {
+        font-size: .75rem;
+        font-weight: 200;
+        color: #444;
+    }
+
+    time {
+        color: #555;
+        font-size: .85rem;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 4px
+    }
+
+</style>
