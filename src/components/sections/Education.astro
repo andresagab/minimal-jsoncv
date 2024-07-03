@@ -11,19 +11,19 @@ import { education } from "@cv"
         {
             education.map(({ institution, url, area, studyType, startDate, endDate, score, courses }) => {
                 
-                const dates = startDate && endDate ? `${startDate} - ${endDate}` : null
+                const startYear = new Date(startDate).getFullYear()
+                const endYear = endDate ? new Date(endDate).getFullYear() : "Actual"
+                const dates = `${startYear} - ${endYear}`
 
                 return (
                     <li>
                         <article>
                             <header>
-                                <div>
-                                    <h3>
-                                        <a href={url} target="_blank" title={`Go to ${institution}`}>
-                                            {institution}
-                                        </a>
-                                    </h3>
-                                </div>
+                                <h3>
+                                    <a href={url} target="_blank" title={`Go to ${institution}`}>
+                                        {institution}
+                                    </a>
+                                </h3>
                                 <time>{dates}</time>
                             </header>
                             <footer>
@@ -41,6 +41,13 @@ import { education } from "@cv"
 </Section>
 
 <style>
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 4px;
+    }
 
     ul {
         display: flex;
@@ -67,18 +74,12 @@ import { education } from "@cv"
         font-size: .75rem;
         font-weight: 200;
         color: #444;
+        margin: 0px;
     }
 
     time {
         color: #555;
         font-size: .85rem;
-    }
-
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        margin-bottom: 4px
     }
 
 </style>

@@ -29,33 +29,42 @@
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Divulgador sobre Programación Web",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
-      "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
-      "highlights": [
-        "Started the company"
-      ]
-    },
-    {
       "name": "AMPM24.SAS",
       "position": "Full Stack Developer",
       "url": "https://ampm24.co",
       "startDate": "2021-01-02",
       "endDate": "2024-05-31",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+      "summary": "Lideré el desarrollo de un sistema de información para gestionar ordenes médicas y realizar exámenes de valoración ocupacional, audiometría, optometría, visiometría, psicología y laboratorios clínicos principalmente. El software fue desarrollado con PHP 7x, Laravel 8x, Livewire 2x, MySQL 8, HTML, JS, CSS, Git, GitHub y otros.",
+      "highlights": [
+        "Change of Software"
+      ]
+    },
+    {
+      "name": "Freelancer (Papelería Escobar)",
+      "position": "Full Stack Developer",
+      "startDate": "2023-01-02",
+      "endDate": "2023-04-02",
+      "summary": "Lideré el desarrollo de una plataforma web para registrar y verificar códigos de facturas. En su desarrollo se utilizó PHP 8x, Laravel 9x, Vue 3, MySQL 8, además de HTML, CSS, JS, Git y GitHub.",
       "highlights": [
         "Started the company"
       ]
     },
     {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+      "name": "Freelancer (PANAM.SAS)",
+      "position": "Full Stack Developer",
+      "startDate": "2017-09-01",
+      "endDate": "2018-09-01",
+      "summary": "Lideré el desarrollo de un sistema de información para gestionar procesos de reencauche de llantas. Durante el desarrollo se implementó PHP 5x, PostgrSQL 10x, HTML, CSS, JS, Angular JS, Bootstrap, Git y GitHub.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Freelancer (XNET COMPUTACIÓN)",
+      "position": "Full Stack Developer",
+      "startDate": "2017-04-01",
+      "endDate": "2017-07-01",
+      "summary": "Responsable del mantenimiento y mejora continua de un sistema de información para la gestión de ordenes de compra y datos de elaboración y producción de maderas. Stack utilizado: PHP 5x, MySQL, HTML, CSS y JS.",
       "highlights": [
         "Started the company"
       ]
@@ -72,30 +81,70 @@
       "Awarded 'Volunteer of the Month'"
     ]
   }],
-  "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Ingeniero de Software",
-    "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
+  "education": [
+    {
+      "institution": "Universidad de Nariño",
+      "url": "https://www.udenar.edu.co",
+      "area": "Degree in computer science",
+      "studyType": "Degree",
+      "startDate": "2018-08-01",
+      "endDate": "2024-08-01",
+      "score": "4.5",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    },
+    {
+      "institution": "SENA",
+      "url": "https://www.sena.edu.co/es-co/Paginas/default.aspx",
+      "area": "Technologist in Analysis and Development of Information Systems",
+      "studyType": "Technologist",
+      "startDate": "2016-08-01",
+      "endDate": "2018-08-01",
+      "score": "4.5",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }
+  ],
   "awards": [{
     "title": "Award",
     "date": "2014-11-01",
     "awarder": "Company",
     "summary": "There is no spoon."
   }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
+  "certificates": [
+    {
+      "name": "Curso de FastAPI: Bases de Datos, Modularización y Deploy a Producción",
+      "date": "2023-08-09",
+      "issuer": "Platzi",
+      "url": "#"
+    },
+    {
+      "name": "Curso de FastAPI: Introducción, Operaciones, Validaciones y Autenticación",
+      "date": "2023-07-22",
+      "issuer": "Platzi",
+      "url": "#"
+    },
+    {
+      "name": "Curso de Python: PIP y Entornos Virtuales",
+      "date": "2023-07-16",
+      "issuer": "Platzi",
+      "url": "#"
+    },
+    {
+      "name": "Curso de Python: Comprehensions, Funciones y Manejo de Errores",
+      "date": "2023-04-13",
+      "issuer": "Platzi",
+      "url": "#"
+    },
+    {
+      "name": "Curso de Fundamentos de Python",
+      "date": "2023-11-02",
+      "issuer": "Platzi",
+      "url": "#"
+    }
+  ],
   "publications": [{
     "name": "Publication",
     "publisher": "Company",
@@ -105,22 +154,57 @@
   }],
   "skills": [
     {
+      "name": "PHP",
+      "level": "Advanced",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "Laravel",
+      "level": "Advanced",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "Livewire",
+      "level": "Advanced",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Advanced",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Advanced",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
       "name": "HTML",
-      "level": "Master",
+      "level": "Advanced",
       "keywords": [
         "Desarrollo Web", "Frontend"
       ]
     },
     {
       "name": "CSS",
-      "level": "Master",
+      "level": "Basic",
       "keywords": [
         "Desarrollo Web", "Frontend", "Diseño Responsive"
       ]
     },
     {
       "name": "JavaScript",
-      "level": "Master",
+      "level": "Intermedium",
       "keywords": [
         "Desarrollo Web", "Frontend", "Backend", "Fullstack"
       ]
@@ -133,14 +217,28 @@
       ]
     },
     {
-      "name": "TypeScript",
-      "level": "Avanzado",
+      "name": "Python",
+      "level": "Intermedium",
       "keywords": [
         "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
       ]
     },
     {
-      "name": "Node",
+      "name": "FastAPI",
+      "level": "Intermedium",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Vue3",
+      "level": "Intermedium",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "C#",
       "level": "Avanzado",
       "keywords": [
         "Desarrollo Web", "Backend", "JavaScript", "Servidor"
@@ -166,20 +264,6 @@
       "keywords": [
         "Control de Versiones", "Colaboración", "Código Fuente", "Git"
       ]
-    },
-    {
-      "name": "Next.js",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-      ]
     }
   ],
   "languages": [
@@ -189,7 +273,7 @@
     },
     {
       "language": "English",
-      "fluency": "Advanced"
+      "fluency": "B1"
     }
   ],
   "interests": [{

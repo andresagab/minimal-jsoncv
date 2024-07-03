@@ -1,0 +1,77 @@
+---
+import Section from "@/components/Section.astro";
+
+import { certificates } from "@cv"
+
+---
+
+<Section title="Certificates">
+
+    <ul>
+        {
+            certificates.map(({ name, date, issuer, url }) => {
+
+                const month = new Date(date).getMonth() + 1
+                const year = new Date(date).getFullYear()
+                const customDate = `${month}/${year}`
+
+                return (
+                    <li>
+                        <article>
+                            <header>
+                                <h3>{name}</h3>
+                                <time>{customDate}</time>
+                            </header>
+                            <footer>
+                                <h4>
+                                    <a href={url} target="_blank" title={`Go to ${url}`}>
+                                        {issuer}
+                                    </a>
+                                </h4>
+                            </footer>
+                        </article>
+                    </li>
+                )
+
+            })
+        }
+    </ul>
+
+</Section>
+
+<style>
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    article h3 {
+        font-weight: 500;
+        color: #111;
+        text-decoration: none;
+    }
+    
+    article h4 a {
+        font-weight: 400;
+        color: #333;
+    }
+
+    article h4 a:hover {
+        text-decoration: underline;
+    }
+
+    time {
+        color: #555;
+        font-size: .85rem;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 4px
+    }
+
+</style>
