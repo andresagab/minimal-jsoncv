@@ -145,13 +145,40 @@
       "url": "#"
     }
   ],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
+  "others": [
+    {
+      "name": "Natural Language Processors: ChatGPT in the customization of the learning",
+      "publisher": "RUNIN",
+      "type": "Article",
+      "releaseDate": "2023-12-15",
+      "url": "https://revistas.udenar.edu.co/index.php/runin/article/view/8330",
+      "summary": "In a world of constant technological evolution, artificial intelligence (AI) stands out as a beacon of innovation. From creating images from text to the ability to replicate celebrity voices using AI-based speech synthesizers, AI has proven its versatility and adaptability in a wide range of applications. This article explores the impact of AI, with a particular focus on Natural Language Processing (NLP), in transforming education by enabling personalization of learning, and discusses the ethical challenges related to AI in education. and how these advances are changing traditional teaching and assessment methods. The article also presents examples of notable NLP-based platforms, such as ChatGPT, and how they are being used to drive effectiveness and personalization in education, and addresses key topics such as AI literacy, critical thinking, and integrity. academic. Despite the challenges, the potential for AI to revolutionize education is undeniable, underscoring the importance of combining technological innovation with a deep understanding of the needs of students in the 21st century."
+    },
+    {
+      "name": "ReactToDo: Building your task list",
+      "publisher": "LICINFO",
+      "type": "Workshop",
+      "releaseDate": "2023-11-30",
+      "url": null,
+      "summary": "The “ReactToDo: Building Your To Do List” workshop will focus on creating an interactive to do list using the popular JavaScript library, React. During this workshop, we will explore the fundamentals of React and learn how to apply them to develop a practical and functional web application. Participants will acquire key skills in developing dynamic user interfaces and learn how to effectively manage tasks and projects in a digital environment. From creating components to managing application state, this workshop will provide a solid foundation for those who want to master React and build modern, interactive web applications."
+    },
+    {
+      "name": "Creating basic Minecraft with Python",
+      "publisher": "LICINFO",
+      "type": "Workshop",
+      "releaseDate": "2022-12-01",
+      "url": null,
+      "summary": "This workshop aims to guide attendees in the development of desktop software using the Python programming language, thus, a small video game will be developed that allows controlling a character in first person on a 3D scenario, additionally, functions will be created that will allow you to execute actions with the character, these actions will be limited to the creation and destruction of cubes."
+    },
+    {
+      "name": "Developing a web page with ReactJS",
+      "publisher": "LICINFO",
+      "type": "Workshop",
+      "releaseDate": "2021-12-02",
+      "url": null,
+      "summary": "Encourage the Front End development of web pages using the React JS Framework as an alternative to traditional web development in HTML, CSS and JS, since we consider that currently the labor demand requires professionals trained in new web development technologies such as Angular, Vue Js and the already mentioned React JS."
+    }
+  ],
   "skills": [
     {
       "name": "PHP",
@@ -289,14 +316,14 @@
   }],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "evet-check",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "description": "Event-Check is a web app to manage events attendance, with this app the user can create, edit and delete users, people, events. activities of a one event and attendace of a one activity.",
       "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
+        "Active since 2023",
+        "Open Soruce"
       ],
-      "url": "https://mars.codes"
+      "url": "https://eventolicinfo.org/"
     },
     {
       "name": "AdventJS",

@@ -1,0 +1,105 @@
+---
+import Section from "@/components/Section.astro"
+
+import { others } from "@cv"
+
+---
+
+<Section title="Others">
+
+    <ul>
+        {
+            others.map(item => {
+
+                
+
+                return (
+                    <li>
+                        <article>
+                            <header>
+                                <div>
+                                    <h3>
+                                        {
+                                            item.url !== null ? <a href={item.url} target="_blank" title={`Go to the ${item.type}`}>{item.name}</a> : item.name
+                                        }
+                                    </h3>
+                                    <h4>{item.publisher}</h4>
+                                </div>
+                            </header>
+                            <p>{item.summary}</p>
+                            <footer>
+                                <h5>{item.type}</h5>
+                                <time>{item.releaseDate}</time>
+                            </footer>
+                        </article>
+                    </li>
+                )
+
+            })
+        }
+    </ul>
+
+</Section>
+
+<style>
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    li {
+        border: 1px solid #f2f2f2;
+        border-radius: 8px;
+        padding: 16px;
+    }
+
+    article h3 {
+        font-weight: 500;
+        color: #111;
+    }
+
+    article h3 a {
+        color: #111;
+    }
+
+    article h3 a:hover {
+        text-decoration: underline;
+    }
+
+    article h4 {
+        font-weight: 400;
+        color: #222;
+    }
+
+    article h5 {
+        font-weight: 500;
+        font-size: .85rem;
+        color: #555;
+    }
+
+    article p {
+        font-size: .80rem;
+        line-height: 1.2rem;
+        margin-bottom: 4px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 6px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 8px;
+    }
+
+    time {
+        color: #555;
+        font-size: .85rem;
+    }
+</style>
