@@ -13,7 +13,7 @@ import { certificates } from "@cv"
 
                 const month = new Date(date).getMonth() + 1
                 const year = new Date(date).getFullYear()
-                const customDate = `${month}/${year}`
+                const customDate = `${year}/${month}`
 
                 return (
                     <li>
@@ -44,7 +44,7 @@ import { certificates } from "@cv"
     ul {
         display: flex;
         flex-direction: column;
-        gap: 32px;
+        gap: 20px;
     }
 
     article h3 {

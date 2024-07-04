@@ -1,15 +1,15 @@
 {
   "basics": {
     "name": "Andrés Geovanny Angulo Botina",
-    "label": "Software Developer with 6 year of experience and Computer Science Teacher with 1 year of experience.",
+    "label": "Software Developer with 6 years of experience and Computer Science Teacher with 1 year of experience.",
     "image": "/me.webp",
-    "email": "andresdev@gmail.com",
-    "phone": "+57 3128293384",
-    "url": "https://midu.dev",
+    "email": "andresangulodev@gmail.com",
+    "phone": null,
+    "url": "#",
     "summary": "6+ years experience as a Web Developer with PHP, 3+ years experience with Laravel, I have experience with MySQL, PostgreSQL ,Vue 3, Git and GitHub, also I worked with JS, React, TailwindCSS, livewire, Python and C#.",
     "location": {
       "address": "",
-      "postalCode": "08820",
+      "postalCode": "520001",
       "city": "Pasto",
       "countryCode": "CO",
       "region": "Colombia"
@@ -17,12 +17,12 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
+        "username": "Andrés Angulo",
+        "url": "https://www.linkedin.com/in/andresangulodev/"
       },
       {
         "network": "GitHub",
-        "username": "midudev",
+        "username": "andresagab",
         "url": "https://github.com/andresagab"
       }
     ]
@@ -31,10 +31,10 @@
     {
       "name": "AMPM24.SAS",
       "position": "Full Stack Developer",
-      "url": "https://ampm24.co",
+      "url": "https://resultados.ampm24.co/",
       "startDate": "2021-01-02",
       "endDate": "2024-05-31",
-      "summary": "Lideré el desarrollo de un sistema de información para gestionar ordenes médicas y realizar exámenes de valoración ocupacional, audiometría, optometría, visiometría, psicología y laboratorios clínicos principalmente. El software fue desarrollado con PHP 7x, Laravel 8x, Livewire 2x, MySQL 8, HTML, JS, CSS, Git, GitHub y otros.",
+      "summary": "I led the development of an information system to manage medical orders and perform occupational assessment exams, audiometry, optometry, visiometry, psychology and clinical laboratories mainly. The software was developed with PHP 7x, Laravel 8x, Livewire 2x, MySQL 8, HTML, JS, CSS, Git, GitHub and others.",
       "highlights": [
         "Change of Software"
       ]
@@ -44,7 +44,7 @@
       "position": "Full Stack Developer",
       "startDate": "2023-01-02",
       "endDate": "2023-04-02",
-      "summary": "Lideré el desarrollo de una plataforma web para registrar y verificar códigos de facturas. En su desarrollo se utilizó PHP 8x, Laravel 9x, Vue 3, MySQL 8, además de HTML, CSS, JS, Git y GitHub.",
+      "summary": "I led the development of a web platform to register and verify invoice codes. PHP 8x, Laravel 9x, Vue 3, MySQL 8, as well as HTML, CSS, JS, Git and GitHub were used in its development.",
       "highlights": [
         "Started the company"
       ]
@@ -54,7 +54,7 @@
       "position": "Full Stack Developer",
       "startDate": "2017-09-01",
       "endDate": "2018-09-01",
-      "summary": "Lideré el desarrollo de un sistema de información para gestionar procesos de reencauche de llantas. Durante el desarrollo se implementó PHP 5x, PostgrSQL 10x, HTML, CSS, JS, Angular JS, Bootstrap, Git y GitHub.",
+      "summary": "I led the development of an information system to manage tire retreading processes. During development, PHP 5x, PostgrSQL 10x, HTML, CSS, JS, Angular JS, Bootstrap, Git and GitHub were implemented.",
       "highlights": [
         "Started the company"
       ]
@@ -64,7 +64,7 @@
       "position": "Full Stack Developer",
       "startDate": "2017-04-01",
       "endDate": "2017-07-01",
-      "summary": "Responsable del mantenimiento y mejora continua de un sistema de información para la gestión de ordenes de compra y datos de elaboración y producción de maderas. Stack utilizado: PHP 5x, MySQL, HTML, CSS y JS.",
+      "summary": "Responsible for the maintenance and continuous improvement of an information system for the management of purchase orders and wood processing and production data. Stack used: PHP 5x, MySQL, HTML, CSS and JS.",
       "highlights": [
         "Started the company"
       ]
@@ -115,31 +115,31 @@
   }],
   "certificates": [
     {
-      "name": "Curso de FastAPI: Bases de Datos, Modularización y Deploy a Producción",
+      "name": "FastAPI Course: Databases, Modularization and Deploy to Production",
       "date": "2023-08-09",
       "issuer": "Platzi",
       "url": "#"
     },
     {
-      "name": "Curso de FastAPI: Introducción, Operaciones, Validaciones y Autenticación",
+      "name": "FastAPI Course: Introduction, Operations, Validations and Authentication",
       "date": "2023-07-22",
       "issuer": "Platzi",
       "url": "#"
     },
     {
-      "name": "Curso de Python: PIP y Entornos Virtuales",
+      "name": "Python Course: PIP and Virtual Environments",
       "date": "2023-07-16",
       "issuer": "Platzi",
       "url": "#"
     },
     {
-      "name": "Curso de Python: Comprehensions, Funciones y Manejo de Errores",
+      "name": "Python Course: Comprehensions, Functions and Error Handling",
       "date": "2023-04-13",
       "issuer": "Platzi",
       "url": "#"
     },
     {
-      "name": "Curso de Fundamentos de Python",
+      "name": "Python Fundamentals Course",
       "date": "2023-11-02",
       "issuer": "Platzi",
       "url": "#"
@@ -321,61 +321,62 @@
       "description": "Event-Check is a web app to manage events attendance, with this app the user can create, edit and delete users, people, events. activities of a one event and attendace of a one activity.",
       "highlights": [
         "Active since 2023",
-        "Open Soruce"
+        "Open Soruce",
+        "PHP",
+        "Laravel",
+        "MySQL",
+        "GitHub"
       ],
-      "url": "https://eventolicinfo.org/"
+      "url": "https://eventolicinfo.org/",
+      "github": "https://github.com/andresagab/evet-check"
     },
     {
-      "name": "AdventJS",
-      "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "name": "BasicBlockPY",
+      "isActive": false,
+      "description": "Basic game to create and destroy cubes in a 3d scenary.",
       "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
+        "Open Soruce",
+        "Python",
+        "Ursina",
+        "2022"
       ],
-      "url": "https://adventjs.dev"
+      "url": "https://github.com/andresagab/BasicBlockPY"
     },
     {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
+      "name": "aprendamos-os",
+      "isActive": false,
+      "description": "University project of an educational web application on Operating Systems and their basic characteristics.",
       "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
+        "Open Soruce",
+        "ReactJS",
+        "2021"
       ],
-      "url": "https://codember.dev"
+      "url": "https://github.com/andresagab/aprendamos-os"
     },
     {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
+      "name": "basic-radicator",
+      "isActive": false,
+      "description": "Simple app to save pdf files and generate a station number.",
       "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
+        "Open Soruce",
+        "PHP",
+        "Laravel",
+        "2021"
       ],
-      "url": "https://codi.link",
+      "url": "https://github.com/andresagab/basic-radicator"
+    },
+    {
+      "name": "OurMatter",
+      "isActive": false,
+      "description": "Web portal for the presentation of educational content according to a subject, this website will allow the teacher to contribute to the learning of their students through the creation of content and evaluations.",
+      "highlights": [
+        "Open Soruce",
+        "Native PHP",
+        "MySQL",
+        "2019"
+      ],
+      "url": "https://github.com/andresagab/OurMatter",
       "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": [
-        "100% gratuito",
-        "+500 soluciones de la comunidad"
-      ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
-      ],
-      "url": "https://miduconf.com"
     }
   ]
 }

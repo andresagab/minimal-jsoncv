@@ -9,13 +9,13 @@ import { projects } from "@cv"
 
     <ul>
         {
-            projects.map(({ url, description, highlights, name, isActive }) => {
+            projects.map(({ url, description, highlights, name, isActive, github }) => {
                 return (
                     <li>
                         <article>
                             <header>
                                 <h3>
-                                    <a href={url} title={`View project ${name}`}
+                                    <a href={url} title={`View project ${name}`} target="_blank"
                                     >
                                         {name}
                                     </a>
@@ -28,7 +28,13 @@ import { projects } from "@cv"
                             <footer>
                                 {
                                     highlights.map((highlight) => {
-                                        return <span>{highlight}</span>
+                                        return (
+                                            <span>
+                                                {
+                                                    (github && highlight.toLocaleLowerCase().includes("github")) ? <a href={github} title={`View project ${name} on GitHub`} target="_blank">GitHub</a> : highlight
+                                                }
+                                            </span>
+                                        )
                                     })
                                 }
                             </footer>
